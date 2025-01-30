@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Load student marks from JSON file
-MARKS_FILE = Path("students\data\q-vercel-python.json")
+MARKS_FILE = Path("./data/q-vercel-python.json")
 students = {}
 
 try:
